@@ -10,6 +10,6 @@ export const routes: Routes = [
     {path:'login', component:LoginComponent},
     {path:'user', component:UserComponent},
     {path:'display-user-data', component:DisplayUserDataComponent},
-    {path:'**', component:PageErrorComponent},
+    // {path:'**', component:PageErrorComponent},
 
 ];

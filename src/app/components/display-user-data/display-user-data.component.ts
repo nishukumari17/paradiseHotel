@@ -2,6 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 import {DisplayUserDataService} from './../../services/display-user-data.service';
 // import { TableModule } from 'primeng/table';
+
 import { TableModule } from 'primeng/table';
 @Component({
   selector: 'app-display-user-data',
