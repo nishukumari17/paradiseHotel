@@ -1,0 +1,64 @@
+.head{
+    background: linear-gradient(rgba(0, 0, 0,0.7) ,rgba(0, 0, 0, 0.4)), url('../../../assets/bg.jpg');
+    background-size: cover;
+    /* border-radius: 20px;*/
+    padding: 20px 0 200px 0; 
+    margin:auto, 0;
+    
+    /* background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), ; */
+}
+
+.menu ul li{
+    text-align:left;
+    list-style-type: none;
+    float: left;
+    color: aliceblue;
+   border: solid 1px #CC9B60;
+   margin-left: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.menu ul li:hover{
+  background-color:#CC9B60 ;
+  /* transform: translate(2px,2px); */
+  /* transform: scale(1,1); */
+  text-shadow: 5px 5px 5px whitesmoke;
+}
+ .logo{
+    color: aliceblue;
+    text-align: center;
+}
+ 
+.logo img{
+    width: 100px;
+}
+.connect ul li{
+    text-align:right;
+    list-style-type: none;
+    float: left;
+    color: aliceblue;
+    border: solid 1px #CC9B60;
+    margin-left: 15px;
+     padding: 10px;
+     border-radius:10px;
+     overflow: hidden;
+    /* padding: 15px ; */
+
+}
+.connect ul li:hover{
+    background-color:#CC9B60 ;
+    /* transform: translate(2px,2px); */
+    /* transform: scale(1,1); */
+    text-shadow: 5px 5px 5px whitesmoke;
+  }  
+.caption{
+    color: aliceblue;
+    text-align: center;
+
+}
+.caption h1{
+    padding: 110px 0 0 0;
+    font-size: 150px;
+    text-shadow: 2px 2px 5px whitesmoke;
+}

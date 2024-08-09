@@ -1,0 +1,91 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- <table>
+                     
+                    <tr>
+                        <td>Name</td>
+                        <td>Date of Birth</td>
+                        <td>Gender</td>
+                        <td>Mobile</td>
+                        <td>Email</td>
+                        <td>Address</td>
+                        <td>Created At</td>
+                        <td></td>
+                    </tr>
+                    @for(data of datas; track $index){
+                        <tr>
+                            <td>
+                                {{data.cname}}
+                            </td>
+                            <td>
+                                {{data.dob}}
+                            </td>
+                            <td>
+                                {{data.gender}}
+                            </td>
+                            <td>
+                                {{data.mobile}}
+                            </td>
+                            <td>
+                                {{data.email}}
+                            </td>
+                            <td>
+                                {{data.caddress}}
+                            </td>
+                            <td>
+                                {{data.createdAt}}
+                            </td>
+                            <td>
+                             <button (click)="delete(data.id)">  Delete</button> 
+                            </td>
+                        </tr>
+                    }
+                  </table> -->
+                  <p-table [value]="datas" [paginator]="true" [rows]="5" [rowsPerPageOptions]="[5, 10, 20]"[tableStyle]="{ 'min-width': '50rem' }" >
+                    <ng-template pTemplate="header">
+                        <tr>
+                            <th>Name</th>
+                            <th>Dob</th>
+                            <th>Mobile</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Created At</th>
+                            <th></th>
+
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body" let-data>
+                        <tr>
+                            <td>{{ data.cname }}</td>
+                            <td>{{ data.dob }}</td>
+                            <td>{{ data.mobile }}</td>
+                            <td>{{ data.email }}</td>
+                            <td>
+                                {{data.caddress}}
+                            </td>
+                            <td>
+                                {{data.createdAt}}
+                            </td>
+                            <td>
+                                <button (click)="delete(data.id)"> <i class="pi pi-times"></i></button> 
+                               </td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+                
+                  <!-- <img src="./../../../assets/senerios.jpg" alt="image"> -->
+                  <!-- <img src="./../../../xyz/creative.jpg" alt="image"> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- @for (car of cars; track car) {
+    <option [value]="car.value">{{car.viewValue}}</option>
+ }
+ instead of *ngFor
+ 
+ <option *ngFor="let car of cars" [value]="car.value">{{car.viewValue}}</option>  -->
+ 

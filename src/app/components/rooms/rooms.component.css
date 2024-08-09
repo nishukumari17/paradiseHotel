@@ -1,0 +1,30 @@
+.room{
+    background-color:#7F5E26 ; 
+    padding: 10px 0;
+    overflow:hidden;
+}
+.room h2{
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 0;
+    text-shadow:2px 2px 5px whitesmoke;
+}
+.room h3{
+    text-align: left;
+    margin: 0;
+    text-align: center;
+}
+.room p{
+    padding: 0 0 20px 0;
+}
+.room img{
+    border-radius: 15px;
+   text-align: center;
+   padding: 20px 0 0 0;
+}
+.room img:hover{
+   box-shadow: 2px 2px 2px wheat;
+}
+.shadow:hover{
+    box-shadow: 10px 10px 5px 5px black;
+}

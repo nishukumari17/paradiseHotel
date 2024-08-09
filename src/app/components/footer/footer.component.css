@@ -1,0 +1,31 @@
+.foot{
+    background-color:#4B2D11;
+    padding: 10px 0;
+}
+.foot ul li{
+    list-style: none;
+    color: aliceblue;
+    padding: 10px 0;
+}
+.foot ul li:hover{
+    transform: translate(20px 0);
+    color:gray
+}
+.gap{
+    border: solid 1px whitesmoke;
+}
+.foot p{
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 0;
+    
+}
+
+.news {
+    color: aliceblue;
+    margin-bottom: 0;
+}
+.news form{
+  
+    margin: 10px 0;
+}

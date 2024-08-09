@@ -1,0 +1,35 @@
+.aments{
+    background-color: #4B2D11;
+    padding: 10px 0;
+    text-align: center;
+    color: aliceblue;
+}
+.aments p{
+    color: aliceblue;
+    margin: 0;
+}
+.aments h2{
+    color: aliceblue;
+    text-shadow:2px 2px 5px whitesmoke;
+    padding: 0 0 20px 0;
+}
+.aments table tr td{
+    text-align: center;
+    
+}
+.bor{
+    border: 2px solid #DEE2E6;
+    padding: 40px 20px;
+    margin:2px;
+
+}
+.bor:hover{
+    color: rgb(185, 20, 34);
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+.aments button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

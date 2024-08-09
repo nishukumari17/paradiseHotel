@@ -1,0 +1,17 @@
+.vacation{
+    background: url(../../../assets/image.png);
+    background-size: cover;
+    padding: 50px 0;
+}
+.vacation h3{
+    color: aliceblue;
+    padding:40px 0 0 0px;
+}
+.vacation p{
+    color: aliceblue;
+}
+.vacation1{
+    background-image: linear-gradient(rgba(0, 0, 0,0.7) ,rgba(0, 0, 0, 0.4));
+    padding: 30px 30px;
+    margin: 0px;
+}
