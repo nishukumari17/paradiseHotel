@@ -1,7 +1,8 @@
 
 <section>
-    <div class="container">
+    <div class="container data">
       <div class="row">
+        <div class="col"></div>
         <div class="col">
           @if (isSucess) {
             <div class="alert alert-success">
@@ -9,9 +10,12 @@
             </div>
           }
         </div>
+        <div class="div"></div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col"></div>
+        <div class="col inside">
+          <h3>Register Yourself!</h3>
           <div class="register-form">
             <form [formGroup]="ud" (ngSubmit)="onSubmit()">
               <div class="form-group">
@@ -30,9 +34,9 @@
                 </div>
                 }
               </div>
-
+              <label>Gender</label><br>
               <input id="male" type="radio" class="custom-control-input" value="male" name="gender" formControlName="gender">
-              <label class="custom-control-label" for="male">Male</label>
+              <label class="custom-control-label" for="male">Male</label> <br>
               <input id="male" type="radio" class="custom-control-input" value="female" name="gender" formControlName="gender">
               <label class="custom-control-label" for="female">Female</label>
               
@@ -207,18 +211,19 @@
               </div>
   
               <div class="form-group">
-                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="submit" class="btn btn-primary">Register     </button>
                 <button
                   type="button"
                   (click)="onReset()"
-                  class="btn btn-warning float-right"
+                  class="btn btn-warning float-left  gap"
                 >
-                  Reset
+                Reset
                 </button>
               </div>
             </form>
           </div>
         </div>
+        <div class="col"></div>
       </div>
     </div>
   </section>
